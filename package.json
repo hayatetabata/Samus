@@ -12,8 +12,12 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
     "express": "^4.16.4",
+    "nuxt": "^2.4.0",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0",
+    "vue-awesome-countdown": "^1.0.13",
     "vuetify": "^1.5.5",
     "vuetify-loader": "^1.2.1"
   },

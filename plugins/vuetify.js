@@ -13,3 +13,7 @@ Vue.use(Vuetify, {
     success: colors.green.accent3
   }
 })
+
+import vueAwesomeCountdown from 'vue-awesome-countdown'
+ 
+Vue.use(vueAwesomeCountdown, 'vac')
