@@ -23,7 +23,7 @@
   left: 0px;
   margin: auto;
 
-  width: 100%;
+  width: 300px;
   height: 50%;
 }
 </style>

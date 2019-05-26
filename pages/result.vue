@@ -59,42 +59,45 @@ export default {
       return new BigNumber(num).toFixed(digit)
     },
     showText: function (vf) {
+      if (vf < 5) {
+        return "本当に人間ですか？";
+      }
       if (vf < 10) {
         return "リトルマックの上スマ以上";
       }
       if (11 < vf && vf < 14) {
-        return "ルキナの上スマ";
+        return "ルキナの上スマ並の速度";
       }
       switch(true) {
         case vf == 15:
-          return "インクリングのローラー";
+          return "インクリングのローラー並の速度"";
           break;
         case vf == 16:
-          return "リンクの横強";
+          return "リンクの横強並の速度"";
           break;
         case vf == 17:
-          return "サムスの最速NB";
+          return "サムスの最速NB並の速度"";
           break;
         case vf == 18:
-          return "ダークサムスの空下";
+          return "ダークサムスの空下並の速度"";
           break;
         case vf == 19:
-          return "シークの下B";
+          return "シークの下B並の速度"";
           break;
         case vf == 20:
-          return "ピットの空中横B";
+          return "ピットの空中横B並の速度"";
           break;
         case vf == 21:
-          return "ガノンの上スマ";
+          return "ガノンの上スマ並の速度"";
           break;
         case vf == 22:
-          return "Wii Fitトレーナーの最速太陽礼拝";
+          return "Wii Fitトレーナーの最速太陽礼拝並の速度"";
           break;
         case vf == 23:
-          return "シュルクの横B";
+          return "シュルクのバックスラッシュ並の速度";
           break;
         case vf == 24:
-          return "パックンフラワーの最速毒ブレス";
+          return "パックンフラワーの最速毒ブレス並の速度"";
           break;
         case 24 < vf && vf < 30:
           return "しずえの釣り竿に反応できないかも！";

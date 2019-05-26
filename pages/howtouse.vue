@@ -5,9 +5,9 @@
         div 赤いスマッシュロゴが見えたら
         v-img(src="/smashball.png")
         div 下のPushボタンを押そう！
-        v-btn() push
+        v-btn() Push!
 
-        v-btn(to="/measure") Start!
+        v-btn(to="/measure") ルールがわかったので計測をする
 </template>
 
 <style>
@@ -19,7 +19,7 @@
   left: 0px;
   margin: auto;
 
-  width: 100%;
+  width: 300px;
   height: 50%;
 }
 </style>
