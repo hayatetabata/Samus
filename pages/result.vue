@@ -70,34 +70,34 @@ export default {
       }
       switch(true) {
         case vf == 15:
-          return "インクリングのローラー並の速度"";
+          return "インクリングのローラー並の速度";
           break;
         case vf == 16:
-          return "リンクの横強並の速度"";
+          return "リンクの横強並の速度";
           break;
         case vf == 17:
-          return "サムスの最速NB並の速度"";
+          return "サムスの最速NB並の速度";
           break;
         case vf == 18:
-          return "ダークサムスの空下並の速度"";
+          return "ダークサムスの空下並の速度";
           break;
         case vf == 19:
-          return "シークの下B並の速度"";
+          return "シークの下B並の速度";
           break;
         case vf == 20:
-          return "ピットの空中横B並の速度"";
+          return "ピットの空中横B並の速度";
           break;
         case vf == 21:
-          return "ガノンの上スマ並の速度"";
+          return "ガノンの上スマ並の速度";
           break;
         case vf == 22:
-          return "Wii Fitトレーナーの最速太陽礼拝並の速度"";
+          return "Wii Fitトレーナーの最速太陽礼拝並の速度";
           break;
         case vf == 23:
           return "シュルクのバックスラッシュ並の速度";
           break;
         case vf == 24:
-          return "パックンフラワーの最速毒ブレス並の速度"";
+          return "パックンフラワーの最速毒ブレス並の速度";
           break;
         case 24 < vf && vf < 30:
           return "しずえの釣り竿に反応できないかも！";
