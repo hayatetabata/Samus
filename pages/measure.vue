@@ -5,7 +5,7 @@
         h1 CountDown:
           vac(:end-time="new Date().getTime() + 4000")
             span(slot="process" slot-scope="{ timeObj }") {{ timeObj.s}}
-            span(slot="finish") Measuring....
+            span(slot="finish") 計測中......
 
         v-img(v-if="isCounting" src="/smashball_blank.png" width="300px" height="300px")
         v-img(v-if="!isCounting" src="/smashball.png" width="300px" height="300px")
