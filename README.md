@@ -1,4 +1,4 @@
-# Samus
+# FrameMeasure - Samus Project
 
 > My awesome Nuxt.js project
 
