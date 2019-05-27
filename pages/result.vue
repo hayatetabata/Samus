@@ -65,7 +65,7 @@ export default {
       if (vf < 10) {
         return "リトルマックの上スマ以上";
       }
-      if (11 < vf && vf < 14) {
+      if (11 < vf && vf < 15) {
         return "ルキナの上スマ並の速度";
       }
       switch(true) {
