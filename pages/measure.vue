@@ -57,7 +57,7 @@ export default {
       var visibleFrame =  (this.endTime - this.startTime)/15
       var visibleSec =  (this.endTime - this.startTime)/1000
       if (!this.$device.isDesktop) { 
-        errorFrame = 17
+        var errorFrame = 13
         visibleFrame -= errorFrame
         visibleSec -= errorFrame * 0.015
       }
