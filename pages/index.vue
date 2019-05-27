@@ -7,6 +7,9 @@
         div.headline FrameMeasure
 
         v-btn(to="/howtouse") 計測する
+
+        div つくったひと : 
+          a(href="https://twitter.com/hayate_inkling") HAYATE
 </template>
 
 <style>
