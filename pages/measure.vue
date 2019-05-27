@@ -56,6 +56,11 @@ export default {
       this.isStop = true
       var visibleFrame =  (this.endTime - this.startTime)/15
       var visibleSec =  (this.endTime - this.startTime)/1000
+      if (!this.$device.isDesktop) { 
+        errorFrame = 17
+        visibleFrame -= errorFrame
+        visibleSec -= errorFrame * 0.015
+      }
       this.$router.push('/result?vf=' + visibleFrame + '&vs=' + visibleSec)
     }
   }
