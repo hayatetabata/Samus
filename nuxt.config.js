@@ -4,6 +4,10 @@ const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
 module.exports = {
   mode: 'spa',
 
+  server: {
+    port: 8000, // デフォルト: 3000
+    host: 'localhost', // デフォルト: localhost
+  },
   /*
   ** Headers of the page
   */
@@ -50,6 +54,9 @@ module.exports = {
     'nuxt-device-detect',
     ['@nuxtjs/google-analytics', {
       id: 'UA-140511091-2'
+    }],
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-7319352918446842'
     }]
   ],
 
