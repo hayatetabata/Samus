@@ -18,6 +18,7 @@
         script(async src="https://platform.twitter.com/widgets.js" charset="utf-8")
         br
         v-btn(to="/") トップに戻る
+        script(src="https://j.zucks.net.zimg.jp/j?f=441546" charset="utf-8")
 </template>
 
 <style>

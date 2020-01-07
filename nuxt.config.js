@@ -2,7 +2,7 @@ const pkg = require('./package')
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
 
 module.exports = {
-  mode: 'spa',
+  mode: 'universal',
 
   server: {
     port: 8000, // デフォルト: 3000
