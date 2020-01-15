@@ -18,6 +18,9 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
+    script: [
+      { src: 'https://j.zucks.net.zimg.jp/j?f=441546', body: true }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
@@ -37,7 +40,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    '~/assets/style/app.styl'
+    '~/assets/style/app.styl',
+    '@/assets/css/zucks.css'
   ],
 
   /*
