@@ -27,7 +27,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  margin: auto;
+  margin: 40px auto 0px;
 
   width: 100%;
   height: 50%;

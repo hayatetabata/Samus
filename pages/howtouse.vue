@@ -17,7 +17,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  margin: auto;
+  margin: 40px auto 0px;
 
   width: 300px;
   height: 50%;
