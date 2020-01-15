@@ -2,7 +2,7 @@ const pkg = require('./package')
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
 
 module.exports = {
-  mode: 'spa',
+  mode: 'universal',
 
   server: {
     port: 8000, // デフォルト: 3000
@@ -55,9 +55,6 @@ module.exports = {
     ['@nuxtjs/google-analytics', {
       id: 'UA-140511091-2'
     }],
-    ['@nuxtjs/google-adsense', {
-      id: 'ca-pub-7319352918446842'
-    }]
   ],
 
   /*
