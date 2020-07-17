@@ -32,3 +32,11 @@ export default {
   }
 }
 </script>
+
+<style>
+@media (max-height:600px) {
+  div[id^="zucksad"] {
+    display: none;
+  }
+}
+</style>
